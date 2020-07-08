@@ -1,4 +1,4 @@
-# node-zookeeper-client
+# node-zk-client
 
 A pure Javascript [ZooKeeper](http://zookeeper.apache.org) client module for
 [Node.js](http://nodejs.org).
