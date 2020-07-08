@@ -61,7 +61,7 @@ This module has been tested to work with ZooKeeper version 3.4.*.
 You can install it using npm:
 
 ```bash
-$ npm install node-zookeeper-client
+$ npm install node-zk-client
 ```
 
 ## Example
@@ -69,7 +69,7 @@ $ npm install node-zookeeper-client
 1\. Create a node using given path:
 
 ```javascript
-var zookeeper = require('node-zookeeper-client');
+var zookeeper = require('node-zk-client');
 
 var client = zookeeper.createClient('localhost:2181');
 var path = process.argv[2];
@@ -94,7 +94,7 @@ client.connect();
 2\. List and watch the children of given node:
 
 ```javascript
-var zookeeper = require('node-zookeeper-client');
+var zookeeper = require('node-zk-client');
 
 var client = zookeeper.createClient('localhost:2181');
 var path = process.argv[2];
